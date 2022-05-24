@@ -62,7 +62,7 @@ void loop()
 //      //Serial.println("inreasing duty");
 //      }
 
-if(digitalRead(7)){
+if(digitalReadFast(7)){
     
      dutycycle--;
      if(dutycycle<5)
